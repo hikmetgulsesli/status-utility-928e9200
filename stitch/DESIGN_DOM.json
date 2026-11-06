@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-11-06T19:26:05.813Z",
+  "screenCount": 1,
+  "screens": {
+    "eb9410ee964e45ee84df71352231b52d": {
+      "screenId": "eb9410ee964e45ee84df71352231b52d",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "flex-row",
+          "classes": [
+            "max-w-4xl",
+            "w-full",
+            "mx-auto",
+            "flex",
+            "items-center",
+            "justify-between",
+            "pb-8",
+            "border-b",
+            "border-slate-200"
+          ],
+          "childCount": 4
+        },
+        {
+          "tag": "main",
+          "layout": "block",
+          "classes": [
+            "max-w-4xl",
+            "w-full",
+            "mx-auto",
+            "my-auto",
+            "py-12"
+          ],
+          "childCount": 13
+        },
+        {
+          "tag": "footer",
+          "layout": "flex-col",
+          "classes": [
+            "max-w-4xl",
+            "w-full",
+            "mx-auto",
+            "pt-8",
+            "border-t",
+            "border-slate-200",
+            "flex",
+            "flex-col",
+            "md:flex-row",
+            "items-center"
+          ],
+          "childCount": 2
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Refresh status",
+          "classes": [
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "px-5",
+            "py-2.5",
+            "rounded-lg",
+            "text-sm",
+            "font-semibold",
+            "text-white",
+            "bg-indigo-600",
+            "hover:bg-indigo-700",
+            "active:bg-indigo-800",
+            "transition-colors",
+            "shadow-sm",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-indigo-500",
+            "focus:ring-offset-2"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Status Utility &copy; 2025. All systems monitored.",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Route: /status Environment: Production",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {},
+      "fonts": [],
+      "layoutHints": {
+        "gridCols": 1,
+        "flexDirection": "col",
+        "gap": "6"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "Refresh status",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Status Utility &copy; 2025. All systems monitored.",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Route: /status Environment: Production",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "Status Utility &copy; 2025. All systems monitored.",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Route: /status Environment: Production",
+          "icon": null,
+          "active": false
+        }
+      ],
+      "title": "Status page - Status Utility"
+    }
+  }
+}
